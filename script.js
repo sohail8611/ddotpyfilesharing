@@ -1,5 +1,3 @@
-alert("checking")
-console.log("yes");
 var fileUrl = "https://github.com/sohail8611/openai-assistant-api-data-retrieval"
 
 var nonSubscriberText = "Please subscribe to the youtube channel and visit back then you'll get the link"
