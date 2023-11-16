@@ -8,7 +8,7 @@ const handleSubscribe = () => {
     window.location.href = "https://www.youtube.com/@ddotpy?sub_confirmation=1"
 
 }
-
+alert("checking")
 
 let storageData = localStorage.getItem("youtube_ddotpy_subscriber");
 
