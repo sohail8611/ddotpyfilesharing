@@ -2,7 +2,7 @@ var fileUrl = "https://github.com/sohail8611/openai-assistant-api-data-retrieval
 
 
 var nonSubscriberText = "Please make sure you've subscribed to 'D DOT PY' youtube channel and visit back to get Code URL."
-var subscriberText = "Together we'll build AI dev community :) - Here is url to code:"
+var subscriberText = "Together we'll be stronger :) - Here is url to code:"
 
 const handleSubscribe = () => {
     localStorage.setItem("youtube_ddotpy_subscriber", "true");
