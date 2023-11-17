@@ -1,7 +1,7 @@
 var fileUrl = "https://github.com/sohail8611/openai-assistant-api-data-retrieval"
 
 
-var nonSubscriberText = "Please subscribe to the youtube channel and visit back then you'll get the link"
+var nonSubscriberText = "Please make sure you've subscribed to 'D DOT PY' youtube channel and visit back to get Code URL."
 var subscriberText = "Following is the url to code"
 
 const handleSubscribe = () => {
