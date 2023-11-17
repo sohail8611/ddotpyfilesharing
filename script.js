@@ -12,6 +12,7 @@ const handleSubscribe = () => {
     fetch(visitorAndClickApiUrl)
         .then(response => {
             // Do nothing here, as per your request
+            console.log("api call made")
         })
         .catch(error => {
             console.error('Error calling visitor_and_click API:', error);
