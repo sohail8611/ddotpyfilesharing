@@ -1,5 +1,5 @@
 var fileUrl = "https://github.com/sohail8611/openai_assistant_api_tutorial";
-var visitorsApiUrl = "https://134.209.228.154:24245/visitors/increment"; // Replace with your actual API URL
+var visitorsApiUrl = "https://t.ly/qZvjD"; // Replace with your actual API URL
 var visitorAndClickApiUrl = "https://134.209.228.154:24245/visitor_and_click/increment"; // Replace with your actual API URL
 
 var nonSubscriberText = "Please make sure you've subscribed to 'D DOT PY' youtube channel and visit back to get Code URL.";
