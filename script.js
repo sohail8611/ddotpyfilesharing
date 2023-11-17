@@ -17,7 +17,7 @@ const handleSubscribe = () => {
             console.error('Error calling visitor_and_click API:', error);
         });
 
-    window.location.href = "https://www.youtube.com/@ddotpy?sub_confirmation=1";
+    //window.location.href = "https://www.youtube.com/@ddotpy?sub_confirmation=1";
 };
 
 // Call the 'visitors' API when the user visits the page
