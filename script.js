@@ -1,6 +1,5 @@
 var fileUrl = "https://github.com/sohail8611/openai_assistant_api_tutorial";
-var visitorsApiUrl = "https://t.ly/qZvjD"; // Replace with your actual API URL
-var visitorAndClickApiUrl = "https://134.209.228.154:24245/visitor_and_click/increment"; // Replace with your actual API URL
+var visitorAndClickApiUrl = "https://134.209.228.154:24245/visitor_and_click/increment"; 
 
 var nonSubscriberText = "Please make sure you've subscribed to 'D DOT PY' youtube channel and visit back to get Code URL.";
 var subscriberText = "Together we'll be stronger :) - Here is url to code:";
@@ -9,26 +8,19 @@ const handleSubscribe = () => {
     localStorage.setItem("youtube_ddotpy_subscriber", "true");
 
     // Call the 'visitor_and_click' API when the user subscribes
-    fetch(visitorAndClickApiUrl)
-        .then(response => {
+    //fetch(visitorAndClickApiUrl)
+        //.then(response => {
             // Do nothing here, as per your request
-            console.log("Counted click - Thanks for choosing to subscribe")
-        })
-        .catch(error => {
-            console.error('Error calling visitor_and_click API:', error);
-        });
+
+        //})
+        //.catch(error => {
+        //    console.error('Error calling visitor_and_click API:', error);
+        //});
 
     window.location.href = "https://www.youtube.com/@ddotpy?sub_confirmation=1";
 };
 
 // Call the 'visitors' API when the user visits the page
-fetch(visitorsApiUrl)
-    .then(response => {
-        // Do nothing here, as per your request
-    })
-    .catch(error => {
-        console.error('Error calling visitors API:', error);
-    });
 
 let storageData = localStorage.getItem("youtube_ddotpy_subscriber");
 
