@@ -1,4 +1,4 @@
-var fileUrl = "https://github.com/sohail8611/openai-assistant-api-data-retrieval";
+var fileUrl = "https://github.com/sohail8611/openai_assistant_api_tutorial";
 var visitorsApiUrl = "http://134.209.228.154:24245/visitors/increment"; // Replace with your actual API URL
 var visitorAndClickApiUrl = "http://134.209.228.154:24245/visitor_and_click/increment"; // Replace with your actual API URL
 
