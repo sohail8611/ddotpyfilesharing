@@ -1,4 +1,4 @@
-var fileUrl = "https://github.com/sohail8611/openai_assistant_api_tutorial";
+var fileUrl = "https://github.com/sohail8611/voice_assistant_with_openai";
 var visitorAndClickApiUrl = "https://134.209.228.154:24245/visitor_and_click/increment"; 
 
 var nonSubscriberText = "Please make sure you've subscribed to 'D DOT PY' youtube channel and visit back to get Code URL.";
